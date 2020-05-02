@@ -1,0 +1,72 @@
+pre.prettyprint {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #dcdcdc !important;
+    margin-bottom: 20px;
+}
+
+/* Plain text */
+pre.prettyprint .pln {
+    color: #000
+}
+
+/* String */
+pre.prettyprint .str {
+    color: #ff0000;
+}
+
+/* Keyword */
+pre.prettyprint .kwd {
+    color: #0000ff;
+}
+
+/* Comment */
+pre.prettyprint .com {
+    color: #008000;
+}
+
+/* Type */
+pre.prettyprint .typ {
+    color: #800080;
+}
+
+/* Literal value */
+pre.prettyprint .lit {
+    color: #000000;
+}
+
+/* Close bracket, Open bracket, Punctuation */
+pre.prettyprint .clo,
+pre.prettyprint .opn,
+pre.prettyprint .pun {
+    color: #333333;
+}
+
+/* Tag */
+pre.prettyprint .tag {
+    color: #ff0000;
+}
+
+/* Markup attribute name */
+pre.prettyprint .atn {
+    color: #002D7A;
+}
+
+/* Markup attribute value */
+pre.prettyprint .atv {
+    color: #ff0000;
+}
+
+/* Declaration, Variable */
+pre.prettyprint .dec,
+pre.prettyprint .var {
+    color: #002D7A;
+}
+
+/* Function */
+pre.prettyprint .fun {
+    color: #800080;
+}

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>암호화폐 첫걸음 1] 블록체인 기술과 암호화폐 사용의 이점 - 메이커 블로그</title>
+	<meta name="description" content="메이커 뉴스, 스토리, 발표 자료.">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<meta name="robots" content="index, follow">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="암호화폐 첫걸음 1] 블록체인 기술과 암호화폐 사용의 이점 - 메이커 블로그">
+	<meta property="og:description" content=" 안녕하세요, 새해 복 많이 받으시길 바랍니다! 지난해 출시된 다중 담보 다이는 세계 각지의 다양한 신규 사용자를 끌어들이고 있습니다.  메이커 프로토콜이 제공하는 다이, 블록체인 기술, 암호화폐 등의 모든 것들을 새로운 이용자 분들이 이해하실 수 있도록 앞으로 6부작의 암호화폐 시리즈를 게시하고자 합니다. 본 시리즈는 디지털 자산의 장점부터 암호화페를 사는 방법, 암호화폐 차트를 보는 방법 및 이것들이 중요한 […]">
+	<meta property="og:site_name" content="메이커 블로그">
+	<meta property="article:published_time" content="2020-01-30T03:41:52+00:00">
+	<meta property="article:modified_time" content="2020-04-13T04:37:15+00:00">
+	<meta name="twitter:card" content="summary_large_image">
+	
+	
+
+	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+	<link rel="dns-prefetch" href="https://s.w.org/">
+	
+	<script src="js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="markerdao-code-prettify-css-css" href="css/code-prettify.css" type="text/css" media="all">
+	<link rel="stylesheet" id="fontstyle-css" href="css/minireset.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="customstyle-css" href="css/makerdao.css" type="text/css" media="all">
+	<link rel="stylesheet" id="tablepress-default-css" href="css/default.min.css" type="text/css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/prettify.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+
+	
+	
+	
+	
+
+	<style type="text/css" id="wp-custom-css">
+		body {
+			-webkit-font-smoothing: antialiased;
+			letter-spacing: 0rem;
+		}
+
+		a {
+			color: #1AAB9B;
+		}
+
+		.site-title {
+			font-size: 53px;
+		}
+
+		.makerhome a {
+			font-family: helvetica;
+		}
+
+		.content_post h2 {
+			font-size: 26px;
+		}
+
+		.content_post p {
+			font-size: 17px;
+			line-height: 26px;
+			letter-spacing: -0.0rem;
+		}
+
+		.content_post .button-container a {
+			font-size: 1em;
+			color: #1AAB9B;
+		}
+
+		.cat-item a {
+			color: #1AAB9B;
+			font-size: 1em;
+		}
+
+		.comment_form p {
+			line-height: 1.66;
+		}
+
+		.content_post hr {
+			opacity: .2;
+		}
+
+		.comment_form hr {
+			opacity: .2;
+		}
+
+		.content_post .button-container a:hover {
+			color: #10695F;
+			transition: 0.2s;
+		}
+
+		.cat-item a:hover {
+			color: #10695F;
+			transition: 0.2s;
+
+		}
+
+		.comment_form {
+			max-width: 740px;
+			margin: -34px auto;
+		}
+
+		.comment_form h3 {
+			margin-top: 55px;
+			font-size: 27px;
+			font-weight: 500;
+		}
+
+		.wp-block-image {
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+
+		.site-description {
+			margin-top: -2px;
+		}
+
+		.featured_images1 h3,
+		.featured_images2 h3 {
+			font-size: 30px;
+			line-height: 1.20;
+		}
+
+		.featured_images1 small,
+		.featured_images2 small {
+			font-size: 1.1em;
+			font-weight: 400;
+		}
+
+		.widget_categories ul {
+			margin-top: 15px;
+		}
+
+		.content_post p {
+			margin-bottom: 14px;
+		}
+
+		.wp-block-image figcaption {
+			font-size: 15px;
+			margin-top: 1.5em;
+		}
+
+		.social_inner {
+			margin: 22px auto;
+		}
+
+		.social_inner h2 {
+			font-weight: 400;
+		}
+
+		#nexthead {
+			margin-bottom: 50px;
+			padding-top: 40px;
+		}
+
+		.next_post .featured_images2 {
+			margin-top: 30px;
+		}
+
+		.wp-block-image img {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	</style>
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+</head>
+
+<body class="post-template-default single single-post postid-5869 single-format-standard">
+
+
+	<div class="headerbg" style="background: url(img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_Banner.png) no-repeat center center fixed; background-size: cover">
+		<div class="menu-primary-container">
+			<ul id="menu-primary" class="menu">
+				<a href="#">
+					<li class="mlogo">
+						<img src="img/maker_logo_on_dark.svg" alt="logo">
+					</li>
+				</a>
+				<li class="makerhome">
+					<!-- <a href="#" target="_blank">
+						<svg class="maker_link_on_dark" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 50" enable-background="new 0 0 200 50" xml:space="preserve">
+							<style type="text/css">
+								.st0 {
+									fill: #ffffff;
+									opacity: .7
+								}
+							</style>
+							<g class="img">
+								<path class="st0" d="M195.3,26.8l-4.7-4.7c-0.2-0.2-0.6-0.2-0.9,0s-0.2,0.6,0,0.9l3.7,3.7h-10.1c-0.3,0-0.6,0.3-0.6,0.6 s0.3,0.6,0.6,0.6h10.1l-3.7,3.7c-0.2,0.2-0.2,0.6,0,0.9c0.1,0.1,0.3,0.2,0.4,0.2c0.1,0,0.3-0.1,0.4-0.2l4.7-4.7 c0.1-0.1,0.2-0.3,0.2-0.4C195.4,27.1,195.4,26.9,195.3,26.8z"></path>
+								<g>
+									<path class="st0" d="M15.2,31.4c-1.3,0.7-2.8,1.1-4.4,1.1c-1.9,0-3.4-0.6-4.5-1.7c-1.1-1.2-1.7-2.7-1.7-4.6 c0-1.9,0.6-3.5,1.9-4.8c1.3-1.2,2.9-1.9,4.8-1.9c1.4,0,2.6,0.2,3.5,0.6v2.1c-1-0.6-2.1-1-3.4-1c-1.3,0-2.4,0.4-3.3,1.3 c-0.9,0.9-1.3,2-1.3,3.4c0,1.4,0.4,2.6,1.1,3.4c0.7,0.8,1.7,1.2,3,1.2c0.9,0,1.6-0.2,2.2-0.5v-3h-2.6v-1.7h4.7V31.4z"></path>
+									<path class="st0" d="M21.7,32.4c-1.4,0-2.5-0.4-3.3-1.3c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.7,1.3-3.5c0.9-0.8,2-1.3,3.5-1.3 c1.4,0,2.5,0.4,3.3,1.2c0.8,0.8,1.2,2,1.2,3.4c0,1.4-0.4,2.6-1.3,3.4C24.2,32,23.1,32.4,21.7,32.4z M21.8,24.7 c-0.8,0-1.4,0.3-1.9,0.8c-0.5,0.6-0.7,1.3-0.7,2.3c0,0.9,0.2,1.7,0.7,2.2c0.5,0.5,1.1,0.8,1.9,0.8c0.8,0,1.4-0.3,1.8-0.8 c0.4-0.5,0.6-1.3,0.6-2.3c0-1-0.2-1.7-0.6-2.3C23.2,25,22.6,24.7,21.8,24.7z"></path>
+									<path class="st0" d="M38,32.1c-0.4,0.2-0.9,0.3-1.6,0.3c-1.7,0-2.6-0.8-2.6-2.5v-5.1h-1.5v-1.6h1.5v-2.1l2-0.6v2.6H38v1.6h-2.1 v4.5c0,0.5,0.1,0.9,0.3,1.1c0.2,0.2,0.5,0.3,1,0.3c0.3,0,0.6-0.1,0.9-0.3V32.1z"></path>
+									<path class="st0" d="M43.6,32.4c-1.4,0-2.5-0.4-3.3-1.3c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.7,1.3-3.5c0.9-0.8,2-1.3,3.5-1.3 c1.4,0,2.5,0.4,3.3,1.2c0.8,0.8,1.2,2,1.2,3.4c0,1.4-0.4,2.6-1.3,3.4C46.2,32,45.1,32.4,43.6,32.4z M43.7,24.7 c-0.8,0-1.4,0.3-1.9,0.8s-0.7,1.3-0.7,2.3c0,0.9,0.2,1.7,0.7,2.2c0.5,0.5,1.1,0.8,1.9,0.8c0.8,0,1.4-0.3,1.8-0.8 c0.4-0.5,0.6-1.3,0.6-2.3c0-1-0.2-1.7-0.6-2.3C45.1,25,44.5,24.7,43.7,24.7z"></path>
+									<path class="st0" d="M68.7,32.2h-2v-4.9c0-0.9-0.1-1.6-0.4-2c-0.3-0.4-0.7-0.6-1.3-0.6c-0.5,0-1,0.3-1.3,0.8 C63.2,26,63,26.6,63,27.4v4.8h-2v-5c0-1.7-0.6-2.5-1.8-2.5c-0.5,0-1,0.3-1.4,0.8c-0.4,0.5-0.5,1.2-0.5,1.9v4.8h-2v-8.9h2v1.4h0 c0.6-1.1,1.6-1.6,2.8-1.6c0.6,0,1.2,0.2,1.6,0.5c0.5,0.3,0.8,0.8,0.9,1.3c0.7-1.2,1.7-1.9,3-1.9c2,0,3,1.2,3,3.6V32.2z"></path>
+									<path class="st0" d="M78,32.2h-2v-1.4h0c-0.6,1.1-1.5,1.6-2.7,1.6c-0.9,0-1.6-0.2-2.1-0.7c-0.5-0.5-0.7-1.1-0.7-1.9 c0-1.7,1-2.7,2.9-3l2.7-0.4c0-1.3-0.6-1.9-1.8-1.9c-1.1,0-2,0.4-2.9,1.1v-1.8c0.9-0.6,2-0.8,3.3-0.8c2.3,0,3.4,1.1,3.4,3.3V32.2z M76,27.8l-1.9,0.3c-0.6,0.1-1,0.2-1.3,0.4c-0.3,0.2-0.4,0.6-0.4,1.1c0,0.4,0.1,0.7,0.4,0.9c0.3,0.2,0.6,0.4,1.1,0.4 c0.6,0,1.1-0.2,1.5-0.7c0.4-0.4,0.6-1,0.6-1.6V27.8z"></path>
+									<path class="st0" d="M88.6,32.2H86l-3.5-4.3h0v4.3h-2V19h2v8.4h0l3.3-4.1h2.4l-3.7,4.3L88.6,32.2z"></path>
+									<path class="st0" d="M97.1,28.3H91c0,0.8,0.3,1.5,0.8,1.9c0.5,0.4,1.2,0.7,2,0.7c1,0,1.8-0.3,2.6-0.9v1.6 c-0.8,0.5-1.9,0.8-3.2,0.8c-1.3,0-2.4-0.4-3.1-1.2c-0.7-0.8-1.1-2-1.1-3.4c0-1.4,0.4-2.5,1.2-3.4c0.8-0.9,1.8-1.3,3.1-1.3 c1.2,0,2.2,0.4,2.8,1.2c0.7,0.8,1,1.9,1,3.3V28.3z M95.2,26.9c0-0.7-0.2-1.3-0.5-1.7c-0.3-0.4-0.8-0.6-1.4-0.6 c-0.6,0-1.1,0.2-1.5,0.6c-0.4,0.4-0.7,1-0.7,1.7H95.2z"></path>
+									<path class="st0" d="M104.3,25.2c-0.2-0.2-0.6-0.3-1.1-0.3c-0.6,0-1.1,0.3-1.5,0.8c-0.4,0.5-0.6,1.3-0.6,2.2v4.3h-2v-8.9h2v1.8 h0c0.2-0.6,0.5-1.1,0.9-1.5c0.4-0.4,0.9-0.5,1.4-0.5c0.4,0,0.6,0.1,0.8,0.2V25.2z"></path>
+									<path class="st0" d="M113.7,32.2h-2v-1.5h0c-0.7,1.2-1.7,1.7-3,1.7c-1.1,0-2-0.4-2.6-1.2c-0.7-0.8-1-1.9-1-3.3 c0-1.5,0.4-2.7,1.1-3.6c0.7-0.9,1.7-1.3,2.9-1.3c1.2,0,2.1,0.5,2.6,1.5h0V19h2V32.2z M111.7,28.1V27c0-0.6-0.2-1.2-0.6-1.6 c-0.4-0.4-0.9-0.7-1.6-0.7c-0.8,0-1.4,0.3-1.8,0.8s-0.7,1.3-0.7,2.4c0,0.9,0.2,1.6,0.6,2.2c0.4,0.5,1,0.8,1.7,0.8 c0.7,0,1.3-0.3,1.7-0.8C111.5,29.6,111.7,28.9,111.7,28.1z"></path>
+									<path class="st0" d="M123.2,32.2h-2v-1.4h0c-0.6,1.1-1.5,1.6-2.7,1.6c-0.9,0-1.6-0.2-2.1-0.7c-0.5-0.5-0.7-1.1-0.7-1.9 c0-1.7,1-2.7,2.9-3l2.7-0.4c0-1.3-0.6-1.9-1.8-1.9c-1.1,0-2,0.4-2.9,1.1v-1.8c0.9-0.6,2-0.8,3.3-0.8c2.3,0,3.4,1.1,3.4,3.3V32.2z M121.2,27.8l-1.9,0.3c-0.6,0.1-1,0.2-1.3,0.4c-0.3,0.2-0.4,0.6-0.4,1.1c0,0.4,0.1,0.7,0.4,0.9c0.3,0.2,0.6,0.4,1.1,0.4 c0.6,0,1.1-0.2,1.5-0.7c0.4-0.4,0.6-1,0.6-1.6V27.8z"></path>
+									<path class="st0" d="M129.6,32.4c-1.4,0-2.5-0.4-3.3-1.3c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.7,1.3-3.5c0.9-0.8,2-1.3,3.5-1.3 c1.4,0,2.5,0.4,3.3,1.2c0.8,0.8,1.2,2,1.2,3.4c0,1.4-0.4,2.6-1.3,3.4C132.2,32,131,32.4,129.6,32.4z M129.7,24.7 c-0.8,0-1.4,0.3-1.9,0.8c-0.5,0.6-0.7,1.3-0.7,2.3c0,0.9,0.2,1.7,0.7,2.2c0.5,0.5,1.1,0.8,1.9,0.8c0.8,0,1.4-0.3,1.8-0.8 c0.4-0.5,0.6-1.3,0.6-2.3c0-1-0.2-1.7-0.6-2.3C131.1,25,130.5,24.7,129.7,24.7z"></path>
+									<path class="st0" d="M137.2,32.4c-0.3,0-0.6-0.1-0.9-0.3c-0.2-0.2-0.4-0.5-0.4-0.8c0-0.3,0.1-0.6,0.4-0.8 c0.2-0.2,0.5-0.3,0.9-0.3c0.4,0,0.7,0.1,0.9,0.3c0.2,0.2,0.4,0.5,0.4,0.8c0,0.3-0.1,0.6-0.4,0.8C137.8,32.3,137.5,32.4,137.2,32.4z"></path>
+									<path class="st0" d="M147.1,31.8c-0.7,0.4-1.6,0.6-2.5,0.6c-1.3,0-2.4-0.4-3.2-1.2c-0.8-0.8-1.2-1.9-1.2-3.2 c0-1.5,0.4-2.7,1.3-3.6c0.9-0.9,2-1.3,3.5-1.3c0.8,0,1.5,0.1,2.2,0.4v1.9c-0.6-0.5-1.3-0.7-2-0.7c-0.9,0-1.6,0.3-2.1,0.9 c-0.5,0.6-0.8,1.3-0.8,2.3c0,0.9,0.3,1.7,0.8,2.2c0.5,0.5,1.2,0.8,2.1,0.8c0.7,0,1.4-0.3,2.1-0.8V31.8z"></path>
+									<path class="st0" d="M153.1,32.4c-1.4,0-2.5-0.4-3.3-1.3c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.7,1.3-3.5c0.9-0.8,2-1.3,3.5-1.3 c1.4,0,2.5,0.4,3.3,1.2c0.8,0.8,1.2,2,1.2,3.4c0,1.4-0.4,2.6-1.3,3.4C155.6,32,154.5,32.4,153.1,32.4z M153.1,24.7 c-0.8,0-1.4,0.3-1.9,0.8c-0.5,0.6-0.7,1.3-0.7,2.3c0,0.9,0.2,1.7,0.7,2.2c0.5,0.5,1.1,0.8,1.9,0.8c0.8,0,1.4-0.3,1.8-0.8 c0.4-0.5,0.6-1.3,0.6-2.3c0-1-0.2-1.7-0.6-2.3C154.6,25,153.9,24.7,153.1,24.7z"></path>
+									<path class="st0" d="M173.2,32.2h-2v-4.9c0-0.9-0.1-1.6-0.4-2c-0.3-0.4-0.7-0.6-1.3-0.6c-0.5,0-1,0.3-1.4,0.8 c-0.4,0.5-0.6,1.2-0.6,1.9v4.8h-2v-5c0-1.7-0.6-2.5-1.8-2.5c-0.5,0-1,0.3-1.3,0.8c-0.4,0.5-0.5,1.2-0.5,1.9v4.8h-2v-8.9h2v1.4h0 c0.6-1.1,1.6-1.6,2.8-1.6c0.6,0,1.2,0.2,1.6,0.5s0.8,0.8,0.9,1.3c0.7-1.2,1.7-1.9,3-1.9c2,0,3,1.2,3,3.6V32.2z"></path>
+								</g>
+							</g>
+						</svg>
+					</a> -->
+				</li><!-- /.makerhome -->
+
+			</ul><!-- /#menu-primary -->
+		</div><!-- /.menu-primary-container -->
+
+		<div class="site-header">
+			<h1 class="site-title">메이커 블로그</h1>
+			<h2 class="site-description">메이커 뉴스, 스토리, 발표 자료.</h2>
+		</div>
+
+
+		<div class="content-inner on-dark">
+
+
+
+			<h1>암호화폐 첫걸음 1] 블록체인 기술과 암호화폐 사용의 이점</h1>
+			<h2>2020년 1월 30일</h2>
+
+		</div><!-- /.content-inner -->
+	</div><!-- /.headerbg -->
+
+	<div class="comment_form">
+
+
+		<p>&nbsp;안녕하세요, 새해 복 많이 받으시길 바랍니다! 지난해 출시된 <a href="#/%ec%83%88%eb%a1%ad%ea%b2%8c-%ec%84%b8%ec%83%81%ec%97%90-%eb%93%b1%ec%9e%a5%ed%95%9c-%ed%99%94%ed%8f%90-%eb%8b%a4%ec%a4%91-%eb%8b%b4%eb%b3%b4-%eb%8b%a4%ec%9d%b4%ea%b0%80-%ec%b6%9c%ec%8b%9c%eb%90%98/"><strong>다중 담보 다이</strong></a>는 세계 각지의 다양한 신규 사용자를 끌어들이고 있습니다.</p>
+
+
+
+		<p>&nbsp;메이커 프로토콜이 제공하는 다이, 블록체인 기술, 암호화폐 등의 모든 것들을 새로운 이용자 분들이 이해하실 수 있도록 앞으로 <strong>6부작의 암호화폐 시리즈</strong>를 게시하고자 합니다. 본 시리즈는 디지털 자산의 장점부터 암호화페를 사는 방법, 암호화폐 차트를 보는 방법 및 이것들이 중요한 이유까지 모든 것들을 다룰 예정이니 많은 관심 부탁드립니다.</p>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<p>&nbsp;디지털 화폐는 전세계의 조직과 시장을 뒤흔들고 있으며, 모두를 위한 탈중앙화와 경제적 자유를 촉발하고 있습니다. 암호화폐의 매력의 근본에는 블록체인 기술이 있으며, 이는 특히 금융 산업에 심대한 혁신을 불러오고 있습니다.</p>
+
+
+
+		<p>&nbsp;예를 들면, 전세계 최초의 중립적인 디지털 화폐인 <a href="#">메이커다오의 스테이블코인 다이</a>는, 이더리움 블록체인 상에서 개발되었고 하이퍼 인플레이션에 내성이 있습니다. 미국 달러에 연동(Soft-pegged)된 다이를 통해, 개인과 기업은 제3자의 간섭이나 변동성 리스크 없이 암호화폐의 이점들을 누릴 수 있습니다. 이를 통해 메이커다오는 <a href="#">빠르게 성장하는 탈중앙 금융(DeFi) 생태계</a>의 핵심 주자가 되고 있습니다.</p>
+
+
+
+		<p>&nbsp;암호화폐와 블록체인의 장점을 완전히 이해하기 위해서는 먼저 이 둘이 어떻게 연결되어 잇는지 알아볼 필요가 있습니다.</p>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<h1><strong>암호화폐와 블록체인의 연결</strong></h1>
+
+
+
+		<p>&nbsp;블록체인은 컴퓨터의 네트워크 상에 존재하는 데이터베이스(장부) 혹은 거래(합의)입니다. 암호화폐 거래는 미리 합의된 암호화폐 종류, 발신자, 수신자 및 수량과 같은 세부 내역을 실행하는 스마트(디지털) 계약으로 대표됩니다. 새로운 거래가 요청되면 전세계의 누구나 볼 수 있도록 장부에 기록되고 블록체인 상에서 처리됩니다.</p>
+
+
+
+		<p>&nbsp;더 나아가, 블록체인을 구동하는 소프트웨어 코드는 무료이며 오픈 소스로 제공됩니다. 따라서 개발자들은 해당 코드를 사용하여 블록체인 상에서 디앱(Decentralized Application)을 개발할 수 있으며, 심지어 <a href="#">디앱 위에 디앱을 구축</a>할 수도 있습니다. 이미 존재하는 코드 위에 새로운 디앱을 만들어 매우 구체적인 사업 솔루션을 제공할 수 있기 때문에 기업에게 이것은 크나큰 이점이 됩니다.</p>
+
+
+
+		<p>&nbsp;블록체인 발명가 사토시 나카모토(가명)는 <a href="#">2008년 비트코인을 세상에 내놓으면서</a> 이 새로운 기술을 암호화폐에 처음으로 적용하였습니다. 그 결과로, 암호화폐를 떼어 놓고 블록체인 기술과 블록체인이 가지는 이점들에 대해 논하기란 불가능에 가깝습니다.</p>
+
+
+
+		<p>&nbsp;지난 12년간 빠르게 성장한 블록체인 기술에 대한 관심과 비트코인의 인기 덕분에, 암호화폐는 하나의 산업으로 폭발적인 성장을 이루었습니다. 오늘날 암호화폐와 토큰은 블록체인 기반 생태계를 육성하는 양분이되고 있습니다. 암호화폐는 매우 구체적인 방식으로 각기 다른 시장이 처한 어려움들을 해소하고 있습니다. 블록체인이 가진 고유한 기능은, 암호화폐가 개인과 기업에 여러가지 이점들을 제공할 때 비로소 빛이 납니다.</p>
+
+
+
+		<figure class="wp-block-image size-large"><img src="img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_1-1024x512.jpg" alt="" class="wp-image-5871" srcset="img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_1-1024x512.jpg 1024w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_1-300x150.jpg 300w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_1-768x384.jpg 768w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_1-1536x768.jpg 1536w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_1.jpg 1600w" sizes="(max-width: 1024px) 100vw, 1024px">
+			<figcaption><strong><em>암호화폐와 토큰은 블록체인 기반의 생태계를 육성하는 자양분입니다.</em></strong></figcaption>
+		</figure>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<h1><strong>암호화폐의 이점들</strong></h1>
+
+
+
+		<p>&nbsp;전세계적 금융 위기가 닥쳤던 2007~2008년 당시는 중앙화된 시스템의 장애와 대중의 좌절감이 커지는 시기였습니다. 그 후 <a href="https://www.thestreet.com/investing/bitcoin/bitcoin-history-14686578">2009년, 비트코인이 최초로 채굴됩니다.</a> 금융 서비스 회사들의 파산이나 구제 금융은 한 때 “대마불사” 라는 용어로 정당화되었고, 거래 상대방 리스크로 발생한 가혹한 현실을 목도해야 했습니다.</p>
+
+
+
+		<p>&nbsp;예를 들면, 리만 브라더스는 <a href="https://som.yale.edu/sites/default/files/files/001-2014-3A-V1-LehmanBrothers-A-REVA.pdf">2008년 파산 절차를 밟을 당시 미국에서 네번째로 큰 투자 은행이었습니다.</a> 이 회사의 폐업으로 인하여 전체 금융 산업에 가해진 충격으로 인해, 결국 <a href="#">미 정부는 7천 억 달러에 달하는 구제 금융을 집행</a>해야 했습니다.</p>
+
+
+
+		<p>&nbsp;암호화폐는 중개자를 제거하여 공평한 환경을 만드는 탈중앙화된 프레임워크를 제공합니다. 따라서 자율적인 개인간 거래가 가능합니다. 예를 들면, 다이의 지급 능력은 신뢰를 기반으로 하는 상대방에 의존하지 않기 때문에, <a href="#">거래 상대방 리스크가 없습니다.</a></p>
+
+
+
+		<p>&nbsp;<a href="#">모든 다이는 이더리움 블록체인 상에서 공개적으로 볼 수 있는 스마트 계약에 예치된 담보로 보증됩니다.</a> 따라서 시장 참여자들은 실시간으로 시스템의 건전성을 확인할 수 있습니다. (이와 달리, 리만 브라더스의 리스크는 불분명하고 정확히 파악하기가 거의 불가능했습니다.)</p>
+
+
+
+		<p>&nbsp;결과적으로, 암호화폐는 아래의 이점들을 제공합니다.</p>
+
+
+
+		<ul>
+			<li><strong>낮은 거래 수수료.</strong> 암호화폐는 기본적으로 개인간에 거래되며, 중앙화된 중개자가 없기 때문에 최소한의 거래소 수수료만이 발생합니다. 예를 들면, <a href="#">뱅크 오브 아메리카(Bank of America)와 같은 중앙화된 은행을 통한 국제 송금의 경우, 환전 수수료가 발생합니다. 하지만 탈중앙화된 시스템 은 환전 수수료를 부과하지 않습니다.</a></li>
+		</ul>
+
+
+
+		<ul>
+			<li><strong>즉시 결제. </strong>수수료의 증가 외에도, 중앙화된 주체나 제3자가 개입할 시 절차 상의 문제로 거래 시간이 길어집니다. <a href="#">암호화폐를 이용하면 거의 즉각적으로 개인간에 거래를 할 수 있어 이를 해결할 수 있습니다.</a></li>
+		</ul>
+
+
+
+		<ul>
+			<li><strong>사기 방지. </strong>개인과 기업은 지리적 경계를 넘어 물자를 사고 팔 때 종종 낯선 사람과 거래하게 됩니다. 불행히도 이 때문에 사기를 당하기도 합니다. 시스템을 속이려는 사람들은 언제나 있지만, 암호화폐의 배경이 되는 블록체인 기술은 사기 문제를 해소하는데 도움이 됩니다. 왜냐하면 블록체인 상에서 체결된 거래는 투명하며 위변조가 불가능하기 때문입니다.</li>
+		</ul>
+
+
+
+		<ul>
+			<li><strong>접근성.</strong> 우리는 어쩌면 하나로 연결된 세상에 살고 있는지 모릅니다. 하지만, 전통 금융 시스템 하에서는 여전히 국경이나 정치적 경계를 넘어 거래하는 것이 복잡합니다. 탈중앙화된 암호화폐는 서<a href="#">로 다른 계층이나 소외 계층도 평등하게 금융 인프라를 사용</a>할 수 있도록 합니다. 예를 들면, 남아프리카에서 사업을 운영하는 사람이 메이커 볼트(Vault)를 이용해 <a href="#">다이를 생성하고, 스테이블 코인의 낮은 변동성을 이용</a>하여 사업 자금을 조달할 수 있습니다.</li>
+		</ul>
+
+
+
+		<p>&nbsp;이러한 이점들은 보면<a href="#"> 왜 다이가 이더리움 생태계 내에서 점점 더 빠르게 퍼지고 있는지 알 수 있습니다.</a></p>
+
+
+
+		<figure class="wp-block-image size-large"><img src="img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_2-1024x512.jpg" alt="" class="wp-image-5872" srcset="img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_2-1024x512.jpg 1024w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_2-300x150.jpg 300w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_2-768x384.jpg 768w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_2-1536x768.jpg 1536w, img/The-Benefits-of-Cryptocurrency-and-Blockchain-Technology_2.jpg 1600w" sizes="(max-width: 1024px) 100vw, 1024px">
+			<figcaption><strong><em>탈중앙성을 기본으로 하는 암호화폐와 블록체인 프로토콜의 장점들</em></strong></figcaption>
+		</figure>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<h1><strong>블록체인 기술의 혜택들</strong></h1>
+
+
+
+		<p>&nbsp;중앙화된 금융 시스템들은 악용될 수 있는
+			고유의 약점들을 보유하고 있습니다. 자본의 비효율적 배분이 일어날 수 으며, 자본과 자금 조달 사이에 격차가 발생할 수 있습니다.</p>
+
+
+
+		<p>결국, 시스템의 약점으로 인해 소비자가 고통을 겪을 수 있습니다. 블록체인
+			기술은 아래와 같은 가치를 바탕으로 더 강하고 더 신뢰할 수 있는 시스템을 제공합니다.</p>
+
+
+
+		<ul>
+			<li><strong>탈중앙성.</strong> 블록체인 기술은 이해 관계자들의 거버넌스를 위한 완전히 탈중앙화된 프레임워크를 제공합니다. 따라서, 중앙화된 주체로 인한 위험 부담 없이 개인들에게 선택권을 주게 됩니다. 다이와 달리, 모든 디지털 자산이 탈중앙화된 것은 아닙니다. 중앙화된 법정화폐 연동 스테이블 코인과 달리, 메이커 프로토콜에서는 중개자의 역할을 하는 중앙화된 관리자가 없습니다. 또한 MKR 토큰 보유자들이 시스템을 운영하며 다이의 안정성을 보장하기 위해 노력합니다. MKR 보유자들의 목표는 시스템의 건전성을 유지하고 유해한 제안으로부터 시스템을 보호하는 것입니다.</li>
+		</ul>
+
+
+
+		<ul>
+			<li><strong>&nbsp;불변성.</strong> 금융 세계는 현재 중앙화된 주체들에 의해 지배되고 있습니다. 따라서 기업과 사람들은 정보를 인증하고 윤리적이고 정확하게 거래를 체결하기 위해서 이들에게 의존합니다. 하지만, 이러한 주체들은 시스템 악용에 취약하며, 웰스 파고가 대표적인 예로 꼽힙니다. 2016년, 연방 규제 기관의 발표에 의해 금융 서비스 회사의 직원들이 비밀리에 2백만 개가 넘는 허가 받지 않은 은행 계좌와 신용카드 계좌를 개설한 것으로 드러났습니다. <a href="#">이러한 계좌들은 고객이 지불한 수수료 뿐만 아니라 일부 직원들의 보너스까지 챙겼습니다.</a> 그로부터 일년 후, <a href="#">발견된 가짜 계좌의 수는 350만 개로 불어났습니다.</a> 블록체인의 원장이 가지는 불변성 덕분에, 내부자들이 자신들의 이익을 위해 시스템을 악용하는 것을 방지할 수 있습니다.</li>
+		</ul>
+
+
+
+		<ul>
+			<li><strong>투명성.</strong> 블록체인의 투명성으로 인해 누구나 개별 거래 내력을 확인할 수 있으며, 이러한 정보를 근거로 의사 결정을 내릴 수 있습니다. 불변성과 유사하게, 투명성은 나쁜 사람들이 두 번 생각하게끔 만듭니다.</li>
+		</ul>
+
+
+
+		<ul>
+			<li>&nbsp;<strong>보안성.</strong> 블록체인 거래 이력은 컴퓨터의 네트워크에 분산되어 기록됩니다. 따라서 단일 장애 지점(Single point of failure)이 없습니다. 때문에 해커들의 침투가 극도로 힘듭니다. 추가로, 니모닉(mnemonics)과 같은 보안 방법론은 암호화폐 지갑을 보호하는데 도움이 됩니다.</li>
+		</ul>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<h1><strong>탈중앙성은 블록체인 기술과 암호화폐가 가지는 이점의 핵심입니다.</strong></h1>
+
+
+
+		<p>&nbsp;암호화폐와 블록체인 프로토콜의 장점들은 모두 탈중앙성을 기초로 합니다. 블록체인 기술을 통해서, 개인과 기업은 본인들의 거래에 대해 완전히 통제권을 가집니다. 또한 은행과 같은 중앙화된 주체의 실수나 잘못된 조치에 불이익 받지 않습니다. 게다가, 점점 더 많은 개인과 기업들이 블록체인 기술을 사용할수록 네트워크는 더욱 견고해집니다. 예를 들어, 메이커 프로토콜에서 <a href="#/oasis-borrow-%eb%b0%8f-oasis-save-%ec%86%8c%ea%b0%9c/">다이를 생성하기 위해 볼트를 사용</a>할 때, 그 자체로 해당 화폐의 경제 기반을 더욱 튼튼하게 만듭니다.</p>
+
+
+
+		<p>&nbsp;새롭게 알게 된 지식을 사용해보려고 하신다면, <a href="#">코인베이스(Coinbase)</a>와 같은 거래소에서 다이를 획득하거나, <a href="#">메이커 볼트를 통해 다이를 직접 발행</a>하실 수 있습니다. 그런 뒤 오아시스 세이브(Oasis Save)에서 보유한 <a href="#/oasis-borrow-%eb%b0%8f-oasis-save-%ec%86%8c%ea%b0%9c/">다이를 스테이킹 하여 다이 예치 보상(DSR)을 획득</a>하실 수도 있습니다.</p>
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<p>&nbsp;6부작의 암호화폐 시리즈 중 다음 편은, <strong>“암호화폐는 어떻게 가치를 지니는가”</strong> 입니다.</p>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<h1><strong>DISCLAIMER</strong></h1>
+
+
+
+		<p><em>&nbsp;본 글은 정보 제공만을 목적으로 하며, 법적, 사업적, 투자 혹은 세금 관련 조언으로 사용되어서는 안됩니다. 그런 문제들에 대해서는 본인의 조언자와 상담해야 합니다. 차트와 그래프 및 참고자료들은 정보 제공 및 설명 목적으로만 사용되며, 구매 결정에 사용되어서는 안됩니다. 글의 내용은 명시된 날짜를 기준으로 합니다.</em></p>
+
+
+
+		<hr class="wp-block-separator">
+
+
+
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<h1><strong>메이커다오에 대한 더 많은 정보</strong></h1>
+
+		<style>
+			.form {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-flow: column nowrap;
+			}
+			.inp {
+				width: 100%;
+				height: 45px;
+				border-radius: 25px;
+				background-color: lightgray;
+				margin-top: 15px;
+				margin-bottom: 15px;
+				border: none; 
+				padding: 20px;
+			}
+			.primary-btn {
+				width: 200px;
+				height: 45px;
+				background-color: black;
+				color: lightgray;
+				border-radius: 25px;
+			}
+		</style>
+
+		<form action="" class="form" method="POST">
+                                    
+			<input class="inp" type="text" name="name" placeholder="이름">
+			<input class="inp" type="tel" name="phone" placeholder="전화">
+			<button type="submit" class="primary-btn">제출</button>
+		</form>
+
+		<hr>
+
+		<div class="social_inner">
+			<h2 style="float: left">2020년 1월 30일</h2>
+			<div style="float: left">
+				<div class="footer__text-widget" style="display: flex; flex-flow: row nowrap; justify-content: space-around; align-items: center;">
+					<ul style="display: flex; flex-flow: row nowrap; justify-content: space-around; align-items: center; ">
+						<li style="list-style: none;"><a href="termsandconditions.html">이용 약관</a></li>
+						<li style="list-style: none;"><a href="privacypolicy.html">개인 정보 보호 정책</a></li>
+						<li style="list-style: none;"><a href="disclaimer.html">기권</a></li>
+					</ul>
+				</div>
+			</div>
+			<div style="float: right">
+				<a href="#" target="_blank" rel="noopener">
+					<span class="twitter"></span>
+				</a>
+				<a href="#" target="_blank" rel="noopener">
+					<span class="facebook"></span>
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+
+</html>
